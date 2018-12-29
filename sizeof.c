@@ -4,6 +4,7 @@ int i = 10;
 
 int main() {
    printf("Storage size for char in bytes : %lu bytes\n" , sizeof(char));
+   printf("Storage size for int in bytes : %lu bytes\n" , sizeof(int));
    printf("Storage size for short in bytes : %lu bytes\n" , sizeof(short));
    printf("Storage size for long in bytes : %lu bytes\n" , sizeof(long));
 
